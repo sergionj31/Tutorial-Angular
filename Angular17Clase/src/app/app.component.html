@@ -1,0 +1,19 @@
+<app-user></app-user>
+<div>
+    <h1>¿Qué me parece Angular?</h1>
+    <article>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas similique sint qui ratione enim animi voluptatibus sit rem explicabo nisi atque quod, ex tempora alias tempore consequatur, ducimus architecto consequuntur?</p>
+        <p>Officiis, ducimus. Tempora nemo facere distinctio, ex temporibus error dolorem qui libero ullam veniam rem, eligendi doloremque explicabo voluptas officia ab, labore accusamus commodi incidunt voluptatem ea. Assumenda, possimus adipisci?</p>
+        <p>Recusandae exercitationem voluptatum quibusdam corporis optio reprehenderit. Corrupti aliquam, a assumenda fuga unde sapiente, est qui earum voluptatibus odit expedita neque enim laborum ab hic maiores dicta eligendi laboriosam error?</p>
+        <p>Necessitatibus corporis perferendis corrupti tempore? Magni facilis similique quisquam atque explicabo saepe corrupti ipsam, magnam officiis. Distinctio nisi excepturi voluptatibus pariatur dignissimos ducimus, ea est ut libero, quam laboriosam nulla!</p>
+        <p>Reprehenderit, architecto! Ea architecto explicabo expedita doloremque! Laborum, quas ducimus? Quas minus minima dolorum repellat eaque itaque earum doloremque pariatur molestiae optio ut necessitatibus soluta in aut saepe, reiciendis magni.</p>
+    </article>
+
+    @defer (on viewport){
+        <app-comments></app-comments>
+    } @placeholder {
+        <p>Futuros comentarios</p>
+    } @loading {
+        <p>Cargando comentarios ...</p>
+    }
+</div>
